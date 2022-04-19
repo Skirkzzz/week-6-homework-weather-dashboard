@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"name": "week-5-homework",
+			"path": "."
+		},
+		{
+			"name": "Assets",
+			"path": "../../../instructor/06-Server-Side-APIs/02-Homework/Assets"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "week-5-homework",
+        "liveServer.settings.port": 5502
+    }
+}
