@@ -17,3 +17,17 @@ const MAX_DAILY_FORECAST = 5;
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
+            // Pick the First location from the results
+            const location = data[0];
+
+window.localStorage.setItem("City Search 1");
+window.localStorage.setItem("City Search 2");
+window.localStorage.setItem("City Search 3");
+window.localStorage.setItem("City Search 4");
+
+for (var i = 0; i < localStorage.length; i++){
+    
+    var initial = localStorage.key(i);
+    var score = localStorage.getItem(initial);
+
+}
