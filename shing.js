@@ -1,4 +1,3 @@
-
 window.localStorage.setItem("shing", "2");
 window.localStorage.setItem("egosa", "3");
 window.localStorage.setItem("jason", "4");
@@ -10,4 +9,3 @@ for (var i = 0; i < localStorage.length; i++){
     var score = localStorage.getItem(initial);
 
     console.log(initial + ": " + score);
-}
