@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     
 </head>
 <body>
@@ -25,7 +24,7 @@
                 <form>
                   <div class="form-group">
                       <label for="input">Select a City</label>
-                      <input type="city" class="form-control" id="searchText">
+                      <input type="city" class="form-control" id="searchText" value="manchester">
                   </div>
                   <button type="button" id="searchButton" class="btn btn-primary ">Submit</button>
                 </form>
@@ -37,13 +36,10 @@
                     <thead class="bg-light ">
                         <tr>
                             <th>
-                                <h5>Current City:</h5>
+                                <h5 id="current-city"></h5>
                             </th>
                             <th>
-                                <h5>Date:<p id="date-time "></p></h5>
-                            </th>
-                            <th>
-                                <h5>Icon</h5>
+                                <h5 id="date-time"></h5>
                             </th>
                         </tr>
                     </thead>
@@ -52,102 +48,26 @@
             </div>
             <div>
             <ul id="XXXX ">
-              <li class="ui-state-default ">
-                <span class="ui-icon ui-icon-arrowthick-2-n-s "></span>Temp:
+              <li class="">
+                Temp: <span class="" id="current-temp"></span>
               </li>
-              <li class="ui-state-default ">
-                <span class="ui-icon ui-icon-arrowthick-2-n-s "></span>Wind:
+              <li class="">
+                Wind: <span class="" id="current-wind"></span>
               </li>
-              <li class="ui-state-default ">
-                <span class="ui-icon ui-icon-arrowthick-2-n-s "></span>Humidity:
+              <li class="">
+                Humidity: <span class="" id="current-humidity"></span>
               </li>
-              <li class="ui-state-default ">
-                <span class="ui-icon ui-icon-arrowthick-2-n-s "></span>UV Index
+              <li class="">
+                UV Index: <span class="" id="current-uv"></span>
               </li>
             </ul>
         </div>
             </div>
         </div>
     </section>
-    <section class="row justify-content-around ">
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-info ">
-            Previous Searches
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-              Cities
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-success ">
-            Day +1
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-               - List
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-warning ">
-            Day +2
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-              - List
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-warning ">
-            Day +3
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-              - List
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-warning ">
-            Day +4
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-              - List
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-1 col-lg-1 mb-1 ">
-        <div class="card ">
-          <h3 class="card-header bg-warning ">
-            Day +5
-          </h3>
-          <div class="card-body ">
-            <p class="card-text ">
-              - List
-            </p>
-            <button class="btn btn-block btn-info ">Learn more.</button>
-          </div>
-        </div>
-      </div>
+    <section class="row justify-content-around" id="weather-days">
+      
+      
     </section>
   </div>
     
