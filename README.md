@@ -4,7 +4,7 @@
 
 This application uses a third-party API 'Open Weather Map' [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. The application runs on the browser and uses HTML, javascript and bootstrap.
 
-![Simple Portfolio Page!](./img/WeatherDashboardPhoto)
+![Simple Portfolio Page!](/img/WeatherDashboardPhoto)
 
 Future development will include using local storage and searching for all cities in the UK.
 
